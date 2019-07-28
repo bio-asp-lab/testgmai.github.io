@@ -91,13 +91,12 @@ hr {
 }
 .navbar-custom {
 	margin-bottom: 0;
-	background-color: #f6f6f6;
+	background-color: #DDDDDD;
 	border-radius: 0px;
 	padding: 10px 0;
-	border-bottom: 2px solid #fff;
 }
 .navbar-custom a {
-	color: #4169E1;
+	color: #000000;
 }
 .navbar-custom .nav li a {
 	margin: 0 25px;
@@ -109,13 +108,21 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #000;
+	color: 	#0066FF;
 	background-color: transparent;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #4169E1;
+	color: #000000;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -128,9 +135,9 @@ hr {
 }
 .btn-default {
 	text-transform: uppercase;
-	color: #555;
+	color: 	#99BBFF;
 	background-color: transparent;
-	border-color: #777;
+	border-color: 	#99BBFF;
 	padding: 14px 20px;
 	margin: 0;
 	font-size: 16px;
@@ -140,7 +147,7 @@ hr {
 .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
 	color: #fff;
 	background-color: #121d1f;
-	border-color: #121d1f;
+	border-color: 	#99BBFF;
 }
 /* Header Section */
 .intro {
@@ -369,6 +376,8 @@ header .intro-text {
 	text-align: justify;
   padding: 0 0 60px 0;
 }
+/* 以下是menu選單區css*/
+
 .timeline ul li {
 	list-style-type: none;
 	position: relative;
@@ -679,7 +688,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Footer Section*/
 #footer {
-	background: #f6f6f6;
+	background:#DDDDDD;
 	color: #4169E1;
 	padding: 30px 0 25px 0;
 }
