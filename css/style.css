@@ -97,7 +97,7 @@ hr {
 	border-bottom: 2px solid #fff;
 }
 .navbar-custom a {
-	color: #555;
+	color: #4169E1;
 }
 .navbar-custom .nav li a {
 	margin: 0 25px;
@@ -115,7 +115,7 @@ hr {
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #000;
+	color: #4169E1;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
@@ -373,60 +373,73 @@ header .intro-text {
 	list-style-type: none;
 	position: relative;
 	width: 4px;
-	margin: 0 auto;
-	padding-top: 50px;
-	background: #99BBFF;
+	margin: 25px auto;
+	background: #DDDDDD;
   }
   
   .timeline ul li::after {
 	content: '';
 	position: absolute;
 	left: 50%;
-	bottom: 0;
-	transform: translateX(-50%);
 	width: 30px;
 	height: 30px;
-	border-radius: 50%;
-	background: inherit;
+
   }
   
   .timeline ul li div {
 	position: relative;
-	bottom: 0;
-	width: 400px;
-	padding: 15px;
-	background: #F45B69;
+	width: 560px;
+	padding: 5px;
   }
-  
+ 
   .timeline ul li div::before {
 	content: '';
 	position: absolute;
-	bottom: 7px;
+	bottom: -10px;
 	width: 0;
 	height: 0;
 	border-style: solid;
+	text-align: right;
   }
   
   .timeline ul li:nth-child(odd) div {
-	left: 45px;
+	left:40px;
   }
   
   .timeline ul li:nth-child(odd) div::before {
-	left: -15px;
+	left: -8px; 
 	border-width: 8px 16px 8px 0;
 	border-color: transparent #F45B69 transparent transparent;
   }
   
   .timeline ul li:nth-child(even) div {
-	left: -439px;
+	left: -600px;
+	text-align: right;
   }
   
   .timeline ul li:nth-child(even) div::before {
-	right: -15px;
+	right: -8px;
 	border-width: 8px 0 8px 16px;
 	border-color: transparent transparent transparent #F45B69;
   }
+  .container span.number {
+	height: 100%;
+  }
+  .container span.number span {
+	position: absolute;
+	font-size: 18px;
+	left: -20px;
+	font-weight: bold;
+  }
+  .container span.number span:first-child {
+	top: 0;
+  }
+  .container span.number span:last-child {
+	top: 100%;
+  }
+  
 
+  
 
 .align-left {
   margin-left: 10%;
@@ -667,7 +680,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 /* Footer Section*/
 #footer {
 	background: #f6f6f6;
-	color: #777;
+	color: #4169E1;
 	padding: 30px 0 25px 0;
 }
 #footer p {
